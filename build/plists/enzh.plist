@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>Chinese</string>
+	<key>CFBundleDisplayName</key>
+	<string>牛津柯林斯英中词典</string>
+	<key>CFBundleIdentifier</key>
+	<string>local.dictionary.EnZhOxfordCollins</string>
+	<key>CFBundleName</key>
+	<string>牛津柯林斯英中词典</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>DCSDictionaryCSS</key>
+	<string>DefaultStyle.css</string>
+	<key>DCSDictionaryCopyright</key>
+	<string>数据来源: ECDICT (MIT License) · 含 OXFORD / Collins 权威标注 · 本地构建，仅供个人学习使用</string>
+	<key>DCSDictionaryManufacturerName</key>
+	<string>Local Build</string>
+	<key>DCSDictionaryUseSystemAppearance</key>
+	<true/>
+	<key>DCSElementXPath</key>
+	<dict>
+		<key>definitions</key>
+		<string>(//div[@class='trans'])[1]</string>
+		<key>pronunciation</key>
+		<string>(//span[@class='phon'])[1]</string>
+	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.11</string>
+</dict>
+</plist>

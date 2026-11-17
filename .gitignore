@@ -1,0 +1,18 @@
+# 构建产物
+objects/
+out/
+*.dictionary/
+*.zip
+devkit/
+
+# 数据源（体积大，按需下载）
+*.csv
+*.mdx
+ecdict.csv
+websters.json
+wordroot.txt
+index-lite.json
+src/
+
+# 系统文件
+.DS_Store

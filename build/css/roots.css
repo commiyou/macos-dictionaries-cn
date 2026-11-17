@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", sans-serif;
+    font-size: 13px;
+    color: #1d1d1f;
+    margin: 0;
+    padding: 10px 14px 20px 14px;
+    line-height: 1.6;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    color: #111;
+    margin: 0 0 6px 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.head { margin: 2px 0 10px 0; font-size: 12.5px; }
+
+.phon {
+    font-family: "Times New Roman", Georgia, serif;
+    color: #555;
+    font-size: 13.5px;
+    margin-right: 9px;
+}
+
+.oxford {
+    display: inline-block;
+    background: #c8102e;
+    color: #fff;
+    border-radius: 3px;
+    padding: 0 5px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-right: 7px;
+    vertical-align: 1px;
+}
+
+.collins {
+    color: #e8a33d;
+    font-size: 11.5px;
+    letter-spacing: 1.5px;
+    margin-right: 7px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eef2f7;
+    color: #34608f;
+    border: 1px solid #cfdcea;
+    border-radius: 3px;
+    padding: 0 5px;
+    margin-right: 5px;
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.origin {
+    display: inline-block;
+    color: #8a6d3b;
+    background: #fdf8e8;
+    border: 1px solid #f0e2b8;
+    border-radius: 3px;
+    padding: 0 5px;
+    font-size: 11px;
+}
+
+/* ---- 中文释义块 ---- */
+.trans {
+    margin: 8px 0 12px 0;
+    padding: 8px 11px;
+    background: #f7f9fc;
+    border-left: 3px solid #4a7fb5;
+    border-radius: 2px;
+}
+
+.trans p {
+    margin: 2px 0;
+    font-size: 13.5px;
+    color: #17324f;
+}
+
+/* ---- 英文释义块 ---- */
+.def {
+    margin: 8px 0 12px 0;
+    padding-left: 3px;
+}
+
+.def p {
+    margin: 3px 0;
+    color: #333;
+    font-size: 12.5px;
+}
+
+/* ---- 词根词缀块 ---- */
+.roots {
+    margin: 12px 0 4px 0;
+    padding: 8px 11px;
+    background: #faf7f2;
+    border: 1px solid #eee0c8;
+    border-radius: 3px;
+}
+
+.roots b {
+    color: #8a6d3b;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.rootitem {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #e2d3b8;
+    border-radius: 3px;
+    padding: 1px 7px;
+    margin: 2px 5px 2px 0;
+    font-size: 12px;
+    color: #6b4f2a;
+}
+
+.rootitem i {
+    font-style: normal;
+    color: #9c8460;
+    margin-left: 5px;
+    font-size: 11.5px;
+}
+
+/* ---- 词根词缀专条 ---- */
+.meta { margin: 5px 0 10px 0; }
+
+.meaning {
+    margin: 9px 0;
+    padding: 8px 11px;
+    background: #f7f9fc;
+    border-left: 3px solid #4a7fb5;
+    font-size: 14.5px;
+    color: #17324f;
+}
+
+.meaning b, .function b, .syn b, .ant b, .examples b {
+    color: #34608f;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.function, .syn, .ant, .examples { margin: 8px 0; }
+
+.examples ul {
+    margin: 5px 0 0 0;
+    padding-left: 19px;
+    columns: 2;
+    -webkit-columns: 2;
+}
+
+.examples li {
+    list-style: disc;
+    margin: 1px 0;
+    color: #2b2b2b;
+    font-size: 12.5px;
+    break-inside: avoid;
+}
+
+/* 预览用纯文本构词行 */
+.split-plain {
+    margin: 6px 0 4px 0;
+    font-size: 13.5px;
+    color: #17324f;
+    line-height: 1.7;
+}
+.split-plain p { margin: 0; }
+/* ============================================================
+   三指查词 / 快速查询浮窗
+   系统浮窗高度固定，内容过高即折叠为「更多」。
+   这里只保留最少内容，确保首屏直接显示结果。
+   ============================================================ */
+html.apple_client-panel {
+    background-color: transparent;
+}
+
+html.apple_client-panel body {
+    margin: 0 !important;
+    padding: 2px 6px 2px 6px !important;
+    font-size: 12px !important;
+    line-height: 120% !important;
+}
+
+html.apple_client-panel h1 {
+    font-size: 100% !important;
+    font-weight: 600 !important;
+    margin: 0 0 0.15em 0 !important;
+    padding: 0 !important;
+    border-bottom: none !important;
+}
+
+html.apple_client-panel p {
+    margin: 0.15em 0 0 0 !important;
+    padding: 0 !important;
+    line-height: 120% !important;
+}
+
+/* 隐藏所有次要内容 */
+html.apple_client-panel .head,
+html.apple_client-panel .phon,
+html.apple_client-panel .freq,
+html.apple_client-panel .def,
+html.apple_client-panel .family,
+html.apple_client-panel .split,
+html.apple_client-panel .meta,
+html.apple_client-panel .examples,
+html.apple_client-panel .roots,
+html.apple_client-panel .tag,
+html.apple_client-panel .collins,
+html.apple_client-panel .oxford {
+    display: none !important;
+}
+
+/* 带背景/边框的块在浮窗里去掉装饰 */
+html.apple_client-panel .split-plain,
+html.apple_client-panel .trans,
+html.apple_client-panel .meaning {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: none !important;
+    border: none !important;
+    font-size: 12px !important;
+    line-height: 120% !important;
+    color: #1a1a1a !important;
+}
+
+/* 词根词典浮窗：只显示一行构词拆解，最省高度 */
+html.apple_client-panel .trans {
+    display: none !important;
+}
+html.apple_client-panel .split-plain {
+    display: block !important;
+}
