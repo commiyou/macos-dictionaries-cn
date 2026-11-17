@@ -1,5 +1,9 @@
 # macOS 原生词典：制作、排错与成品分享
 
+[![Release](https://img.shields.io/github/v/release/commiyou/macos-dictionaries-cn?label=release)](https://github.com/commiyou/macos-dictionaries-cn/releases/latest)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-macOS-black.svg)]()
+
 把第三方词库做成 macOS「词典.app」原生词典，支持**三指轻点 / 右键查询 / Spotlight**，并附上两本可直接安装的成品：
 
 | 成品 | 规模 | 说明 |
@@ -51,10 +55,13 @@
 
 到本仓库的 **Releases** 页面下载：
 
-| 文件 | 说明 |
-|---|---|
-| `英语词根词缀反查词典.dictionary.zip` | 词根词缀反查，约 13 MB |
-| `牛津柯林斯英中词典.dictionary.zip` | 英中双解，约 52 MB |
+| 文件 | 内容 | 体积 |
+|---|---|---|
+| [`EnglishWordRoots.dictionary.zip`](https://github.com/commiyou/macos-dictionaries-cn/releases/latest/download/EnglishWordRoots.dictionary.zip) | 词根词缀反查词典 | 13 MB |
+| [`OxfordCollinsEnZh.dictionary.zip`](https://github.com/commiyou/macos-dictionaries-cn/releases/latest/download/OxfordCollinsEnZh.dictionary.zip) | 牛津柯林斯英中词典 | 52 MB |
+| [`SHA256SUMS.txt`](https://github.com/commiyou/macos-dictionaries-cn/releases/latest/download/SHA256SUMS.txt) | 校验值 | — |
+
+压缩包内是中文名的 `.dictionary` 文件夹。解压后整个文件夹放进 `~/Library/Dictionaries/`。
 
 ### 2.2 安装（三步）
 
